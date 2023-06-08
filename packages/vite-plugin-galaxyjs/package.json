@@ -1,0 +1,32 @@
+{
+  "name": "@galaxyjs/vite-plugin-galaxyjs",
+  "version": "0.0.0",
+  "keywords": [
+    "vite-plugin"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  },
+  "devDependencies": {
+    "tsconfig": "*",
+    "typescript": "^4.5.2",
+    "unbuild": "^1.2.1",
+    "vite": "^4.3.9"
+  }
+}

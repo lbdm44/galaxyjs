@@ -5,6 +5,7 @@
   "license": "MIT",
   "file": [
     "base.json",
+    "node.json",
     "react-library.json"
   ],
   "publishConfig": {
